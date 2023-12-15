@@ -1,0 +1,96 @@
+.sc_works {
+  margin-top: 150px;
+  padding: 0 50px;
+
+  .work {
+    height: 100vh;
+
+    .desc_wrap {
+      display: flex;
+      height: 100%;
+
+      .desc {
+        flex: 1 0 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+          font-size: 6vw;
+          line-height: 1;
+          font-weight: 600;
+        }
+
+        p {
+          margin: 150px 0;
+          max-width: 700px;
+          font-size: 28px;
+          line-height: 1.5;
+          padding-right: 50px;
+        }
+
+        .link_wrap {
+          position: relative;
+          overflow: hidden;
+          height: 150px;
+
+          .btn {
+            background: linear-gradient(225deg, #3589fc, #00aee7);
+            border-radius: 50rem;
+            font-size: 1.25rem;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            display: inline-block;
+            font-family:
+              neue-haas-grotesk-display,
+              Helvetica Neue,
+              Arial,
+              sans-serif;
+            margin-right: 25px;
+          }
+        }
+
+        .skill {
+          opacity: 0.7;
+
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .img_wrap {
+        flex: 1 0 50%;
+        margin: 70px 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        &.tada {
+          background: #192550;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 400px;
+            height: auto;
+          }
+        }
+        &.blog {
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 100px;
+          color: #00c08b;
+          font-family: "apple", monospace;
+        }
+      }
+    }
+  }
+}

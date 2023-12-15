@@ -1,0 +1,28 @@
+.sc_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Beatrice", Arial, sans-serif;
+
+  height: 100vh;
+
+  h2 {
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .sns_wrap {
+    .sns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 100px;
+      font-size: 6vw;
+      color: #f9be2c;
+      font-weight: 600;
+    }
+  }
+}
