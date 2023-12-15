@@ -5,10 +5,12 @@
   align-items: center;
 
   .info {
-    max-width: 700px;
+    max-width: 720px;
     margin: 150px 0;
     font-size: 28px;
     line-height: 1.5;
+    text-align: left;
+    word-break: break-word;
   }
 
   .chat_wrap {
