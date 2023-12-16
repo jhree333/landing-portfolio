@@ -43,13 +43,3 @@ HTML, CSS, JavaScript를 이용하여 인터랙티브한 웹을 만드는 것을
 > [프로젝트 상세 설명](https://github.com/jhree333/tada-portfolio) 참고
 
 ---
-
-### 3. [현대 오토 에버](https://jhree333.github.io/hyundai-auto-portfolio/)
-
-> 현대 오토 에버 홈페이지의 코드를 시멘틱하게 코드 작성(개인 프로젝트)  
-> 개발 기간: 7일
->
-> 기술 스택:  
-> HTML, CSS, SCSS, JavaScript, Jquery, Swiper, GSAP
-
-> [프로젝트 상세 설명](https://github.com/jhree333/hyundai-auto-portfolio) 참고
